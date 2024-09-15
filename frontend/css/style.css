@@ -1,0 +1,98 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos del contenedor principal */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #2980b9;
+}
+
+h2, h3 {
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilos del formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+form label {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form input:focus {
+    border-color: #2980b9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+}
+
+button {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+/* Estilos de la lista de usuarios */
+#userlist {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+    width: 100%;
+    max-width: 500px;
+}
+
+#userlist li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #2c3e50;
+}
